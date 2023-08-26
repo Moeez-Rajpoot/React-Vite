@@ -1,18 +1,25 @@
-#inputbox{
+form{
 
+   width: 100%;
+}
+
+#inputbox {
    border-radius: 5px;
    border: none;
    outline: none;
-   padding: 10px;
-   margin-bottom: 10px;
-
+   padding: 1rem; /* Using relative unit for padding */
+   width: 100%; /* Using percentage for width to make it responsive */
+   min-width: 50%; /* Set a maximum width to prevent excessive expansion */
+   max-width: 100%;
+   box-sizing: border-box; /* Ensure padding and border don't affect width */
+   display: flex;
 }
 
-#checkbox{
+::placeholder{
 
-   
-
-
-
+   color: white;
+   text-align: center;
 }
+
+
 

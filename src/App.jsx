@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Mainbox product={PRODUCTS}/>
+      <Mainbox Product={PRODUCTS}/>
     </>
   )
 }

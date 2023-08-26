@@ -10,7 +10,7 @@ function MainBox({Product}) {
     return (
       <div id='Main'>
       <SearchBox />
-      <ProductBox product={Product} />
+      <ProductBox Product={Product} />
     </div>
   )
 }
@@ -19,7 +19,7 @@ export default MainBox
 
 MainBox.propTypes = {
 
-    Product : PropTypes.object,
+    Product : PropTypes.array,
 }
 
 
