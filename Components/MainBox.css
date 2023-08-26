@@ -1,0 +1,13 @@
+#Main{
+
+
+    background-color: rgb(14, 72, 52);
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+
+}

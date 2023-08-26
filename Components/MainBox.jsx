@@ -3,11 +3,12 @@ import React from 'react'
 import SearchBox from './SearchBox'
 import ProductBox from './ProductBox'
 import PropTypes from 'prop-types'
+import './Mainbox.css'
 
 
 function MainBox({Product}) {
     return (
-        <div>
+      <div id='Main'>
       <SearchBox />
       <ProductBox product={Product} />
     </div>
