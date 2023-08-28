@@ -6,6 +6,7 @@ form{
 #inputbox {
    border-radius: 5px;
    border: none;
+   
    outline: none;
    padding: 1rem; /* Using relative unit for padding */
    width: 100%; /* Using percentage for width to make it responsive */
