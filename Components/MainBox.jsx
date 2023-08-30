@@ -9,6 +9,7 @@ import './Mainbox.css'
 function MainBox({Product}) {
     return (
       <div id='Main'>
+        
       <SearchBox />
       <ProductBox Product={Product} />
     </div>
