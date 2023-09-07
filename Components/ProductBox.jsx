@@ -9,7 +9,7 @@ function ProductBox({ Product }) {
   Product.forEach((product) => {
     if (product.category !== lastCategory) {
       rows.push(
-        <th id='cat' colSpan="2" key={product.category}>{product.category}</th>
+        <th id='cat' colSpan="3" key={product.category}>{product.category}</th>
       );
     }
     rows.push(
