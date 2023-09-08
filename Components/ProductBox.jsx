@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './Productbox.css';
 
 function ProductBox({ Product }) {
+  
   const rows = [];
   let lastCategory = null;
 
