@@ -5,6 +5,7 @@ import './Productbox.css';
 function ProductBox({ Product }) {
   
   const rows = [];
+  
   let lastCategory = null;
 
   Product.forEach((product) => {
